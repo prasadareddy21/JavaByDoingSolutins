@@ -1,0 +1,33 @@
+public class ModulusAnimation
+{
+	public static void main( String[] args ) throws Exception
+	{
+		for ( int i=0; i<80; i++ )
+		{
+			if ( i%10 == 0 ){
+				System.out.print(" _____ \r");
+			}else if ( i%10 == 1 ){
+				System.out.print(" A____ \r");
+			}else if ( i%10 == 2 ){
+				System.out.print(" VA___ \r");
+			}else if ( i%10 == 3 ){
+				System.out.print(" IVA__ \r");
+			}else if ( i%10 == 4 ){
+				System.out.print(" SIVA_ \r");
+			}else if ( i%10 == 5 ){
+				System.out.print(" _SIVA \r");
+			}else if ( i%10 == 6 ){
+				System.out.print(" __SIV \r");
+			}else if ( i%10 == 7 ){
+				System.out.print(" ___SI \r");
+			}else if ( i%10 == 8 ){
+				System.out.print(" ____S \r");
+			}else if ( i%10 == 9 ){
+				System.out.print(" _____ \r");
+			}
+
+			Thread.sleep(200);
+		}
+		
+	}
+}
